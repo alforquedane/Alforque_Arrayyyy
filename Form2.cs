@@ -14,9 +14,9 @@ using System.Xml.Linq;
 namespace Alforque_Arrayyyy
 {
 
-    Workbook book = new Workbook();
     public partial class Form2 : Form
     {
+        Workbook book = new Workbook();
         public Form2()
         {
             InitializeComponent();

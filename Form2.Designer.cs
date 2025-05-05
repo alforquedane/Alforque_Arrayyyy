@@ -39,6 +39,7 @@
             // 
             this.dgvDisplay.BackgroundColor = System.Drawing.Color.White;
             this.dgvDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDisplay.GridColor = System.Drawing.Color.White;
             this.dgvDisplay.Location = new System.Drawing.Point(23, 113);
             this.dgvDisplay.Name = "dgvDisplay";
             this.dgvDisplay.Size = new System.Drawing.Size(535, 341);
@@ -55,33 +56,37 @@
             // 
             // btn_Search
             // 
+            this.btn_Search.BackColor = System.Drawing.Color.White;
             this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Search.ForeColor = System.Drawing.Color.Gray;
             this.btn_Search.Location = new System.Drawing.Point(446, 50);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(112, 35);
             this.btn_Search.TabIndex = 2;
             this.btn_Search.Text = "Search";
-            this.btn_Search.UseVisualStyleBackColor = true;
+            this.btn_Search.UseVisualStyleBackColor = false;
             this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // btn_Delete
             // 
+            this.btn_Delete.BackColor = System.Drawing.Color.White;
             this.btn_Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Delete.ForeColor = System.Drawing.Color.Gray;
             this.btn_Delete.Location = new System.Drawing.Point(446, 482);
             this.btn_Delete.Name = "btn_Delete";
             this.btn_Delete.Size = new System.Drawing.Size(112, 35);
             this.btn_Delete.TabIndex = 3;
             this.btn_Delete.Text = "Delete";
-            this.btn_Delete.UseVisualStyleBackColor = true;
+            this.btn_Delete.UseVisualStyleBackColor = false;
             this.btn_Delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(581, 557);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Search);

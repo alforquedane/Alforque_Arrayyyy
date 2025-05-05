@@ -32,7 +32,7 @@ namespace Alforque_Arrayyyy
                 sh.Range[row, 2].Value = message;
                 sh.Range[row, 3].Value = DateTime.Now.ToString("MM/dd/yyyy");
                 sh.Range[row, 4].Value = DateTime.Now.ToString("HH:mm:ss: TT");
-                book.SaveToFile((@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx";
+                book.SaveToFile(@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx");
 
                 MyLog log = new MyLog();
                 log.insertLogs("Name", "Message");
@@ -41,7 +41,7 @@ namespace Alforque_Arrayyyy
             }
             public void showLogs(DataGridView d)
             {
-                book.LoadFromFile((@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx");
+                book.LoadFromFile(@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx");
                 Worksheet sh = book.Worksheets[1];
                 DataTable dt = sh.ExportDataTable();
                 d.DataSource = dt;

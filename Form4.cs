@@ -39,11 +39,11 @@ namespace Alforque_Arrayyyy
             Workbook book = new Workbook();
             book.LoadFromFile(@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx");
             Worksheet sheet = book.Worksheets[0];
-            int row = sh.Rows.Length;
+            int row = sheet.Rows.Length;
             int Counter = 0;
             for (int i = 2; i <= row; i++)
             {
-                if (sh.Range[i, c].Value == val)
+                if (sheet.Range[i, c].Value == val)
                 {
                     Counter++;
 

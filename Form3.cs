@@ -49,5 +49,10 @@ namespace Alforque_Arrayyyy
                 txt_Username.Clear();
             }
         }
+
+        private void lbl_LoginForm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -85,6 +85,7 @@
             // 
             // pnl_Dashboard
             // 
+            this.pnl_Dashboard.BackColor = System.Drawing.Color.White;
             this.pnl_Dashboard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Dashboard.Controls.Add(this.dateTimePicker1);
             this.pnl_Dashboard.Controls.Add(this.btn_Logout);
@@ -101,6 +102,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Gray;
             this.dateTimePicker1.Location = new System.Drawing.Point(19, 199);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(131, 20);
@@ -110,6 +112,7 @@
             // 
             this.btn_Logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logout.ForeColor = System.Drawing.Color.Gray;
             this.btn_Logout.Location = new System.Drawing.Point(14, 448);
             this.btn_Logout.Name = "btn_Logout";
             this.btn_Logout.Size = new System.Drawing.Size(143, 35);
@@ -121,6 +124,7 @@
             // 
             this.btn_Logs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Logs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Logs.ForeColor = System.Drawing.Color.Gray;
             this.btn_Logs.Location = new System.Drawing.Point(14, 394);
             this.btn_Logs.Name = "btn_Logs";
             this.btn_Logs.Size = new System.Drawing.Size(143, 35);
@@ -133,6 +137,7 @@
             // 
             this.btn_Inactive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Inactive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Inactive.ForeColor = System.Drawing.Color.Gray;
             this.btn_Inactive.Location = new System.Drawing.Point(14, 338);
             this.btn_Inactive.Name = "btn_Inactive";
             this.btn_Inactive.Size = new System.Drawing.Size(143, 35);
@@ -145,6 +150,7 @@
             // 
             this.btn_Active.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Active.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Active.ForeColor = System.Drawing.Color.Gray;
             this.btn_Active.Location = new System.Drawing.Point(14, 283);
             this.btn_Active.Name = "btn_Active";
             this.btn_Active.Size = new System.Drawing.Size(143, 35);
@@ -156,17 +162,19 @@
             // lbl_Name
             // 
             this.lbl_Name.AutoSize = true;
-            this.lbl_Name.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Name.Location = new System.Drawing.Point(22, 163);
+            this.lbl_Name.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Name.ForeColor = System.Drawing.Color.Gray;
+            this.lbl_Name.Location = new System.Drawing.Point(46, 160);
             this.lbl_Name.Name = "lbl_Name";
-            this.lbl_Name.Size = new System.Drawing.Size(126, 22);
+            this.lbl_Name.Size = new System.Drawing.Size(82, 31);
             this.lbl_Name.TabIndex = 8;
-            this.lbl_Name.Text = "Dane Alforque";
+            this.lbl_Name.Text = "Name";
             // 
             // lbl_Dashboard
             // 
             this.lbl_Dashboard.AutoSize = true;
             this.lbl_Dashboard.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Dashboard.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Dashboard.Location = new System.Drawing.Point(15, 233);
             this.lbl_Dashboard.Name = "lbl_Dashboard";
             this.lbl_Dashboard.Size = new System.Drawing.Size(144, 31);
@@ -186,6 +194,7 @@
             // 
             // pnl_Active
             // 
+            this.pnl_Active.BackColor = System.Drawing.Color.White;
             this.pnl_Active.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Active.Controls.Add(this.label1);
             this.pnl_Active.Controls.Add(this.lbl_ActiveNo);
@@ -198,6 +207,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(31, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 44);
@@ -218,6 +228,7 @@
             // 
             // pnl_Inactive
             // 
+            this.pnl_Inactive.BackColor = System.Drawing.Color.White;
             this.pnl_Inactive.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Inactive.Controls.Add(this.lbl_InactiveNo);
             this.pnl_Inactive.Controls.Add(this.lbl_Inactive);
@@ -241,6 +252,7 @@
             // 
             this.lbl_Inactive.AutoSize = true;
             this.lbl_Inactive.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Inactive.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Inactive.Location = new System.Drawing.Point(29, 12);
             this.lbl_Inactive.Name = "lbl_Inactive";
             this.lbl_Inactive.Size = new System.Drawing.Size(73, 44);
@@ -250,6 +262,7 @@
             // 
             // pnl_Gender
             // 
+            this.pnl_Gender.BackColor = System.Drawing.Color.White;
             this.pnl_Gender.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Gender.Controls.Add(this.lbl_FemaleNo);
             this.pnl_Gender.Controls.Add(this.lbl_MaleNo);
@@ -287,6 +300,7 @@
             // 
             this.lbl_Female.AutoSize = true;
             this.lbl_Female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Female.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Female.Location = new System.Drawing.Point(58, 48);
             this.lbl_Female.Name = "lbl_Female";
             this.lbl_Female.Size = new System.Drawing.Size(62, 20);
@@ -298,6 +312,7 @@
             // 
             this.lbl_Male.AutoSize = true;
             this.lbl_Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Male.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Male.Location = new System.Drawing.Point(12, 48);
             this.lbl_Male.Name = "lbl_Male";
             this.lbl_Male.Size = new System.Drawing.Size(43, 20);
@@ -309,6 +324,7 @@
             // 
             this.lbl_Gender.AutoSize = true;
             this.lbl_Gender.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Gender.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Gender.Location = new System.Drawing.Point(31, 12);
             this.lbl_Gender.Name = "lbl_Gender";
             this.lbl_Gender.Size = new System.Drawing.Size(68, 22);
@@ -318,6 +334,7 @@
             // 
             // pnl_Color
             // 
+            this.pnl_Color.BackColor = System.Drawing.Color.White;
             this.pnl_Color.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Color.Controls.Add(this.lbl_BlueNo);
             this.pnl_Color.Controls.Add(this.lbl_PinkNo);
@@ -425,6 +442,7 @@
             // 
             this.lbl_Color.AutoSize = true;
             this.lbl_Color.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Color.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Color.Location = new System.Drawing.Point(37, 12);
             this.lbl_Color.Name = "lbl_Color";
             this.lbl_Color.Size = new System.Drawing.Size(56, 22);
@@ -434,6 +452,7 @@
             // 
             // pnl_Hobbies
             // 
+            this.pnl_Hobbies.BackColor = System.Drawing.Color.White;
             this.pnl_Hobbies.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Hobbies.Controls.Add(this.lbl_SoccerNo);
             this.pnl_Hobbies.Controls.Add(this.lbl_VolleyballNo);
@@ -517,6 +536,7 @@
             // 
             this.lbl_Hobbies.AutoSize = true;
             this.lbl_Hobbies.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Hobbies.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Hobbies.Location = new System.Drawing.Point(27, 12);
             this.lbl_Hobbies.Name = "lbl_Hobbies";
             this.lbl_Hobbies.Size = new System.Drawing.Size(77, 22);
@@ -526,6 +546,7 @@
             // 
             // pnl_Course
             // 
+            this.pnl_Course.BackColor = System.Drawing.Color.White;
             this.pnl_Course.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Course.Controls.Add(this.lbl_BeedNo);
             this.pnl_Course.Controls.Add(this.lbl_BsitNo);
@@ -585,6 +606,7 @@
             // 
             this.lbl_Course.AutoSize = true;
             this.lbl_Course.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Course.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Course.Location = new System.Drawing.Point(32, 12);
             this.lbl_Course.Name = "lbl_Course";
             this.lbl_Course.Size = new System.Drawing.Size(66, 22);
@@ -596,7 +618,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(607, 575);
             this.Controls.Add(this.pnl_Course);
             this.Controls.Add(this.pnl_Hobbies);

@@ -39,9 +39,9 @@
             this.lbl_Dashboard.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Dashboard.Location = new System.Drawing.Point(45, 79);
             this.lbl_Dashboard.Name = "lbl_Dashboard";
-            this.lbl_Dashboard.Size = new System.Drawing.Size(185, 31);
+            this.lbl_Dashboard.Size = new System.Drawing.Size(82, 31);
             this.lbl_Dashboard.TabIndex = 8;
-            this.lbl_Dashboard.Text = "Dane Alforque";
+            this.lbl_Dashboard.Text = "Name";
             // 
             // dgv_Logs
             // 
