@@ -61,16 +61,22 @@ namespace Alforque_Arrayyyy
 
         private void btn_Active_Click(object sender, EventArgs e)
         {
-            Form2 fm2 = new Form2();
-            fm2.showStudent("1");
-            fm2.Show();
+            Form2 f2 = new Form2();
+            f2.showStudent("1");
+            f2.Show();
         }
 
         private void btn_Inactive_Click(object sender, EventArgs e)
         {
-            Form2 fm2 = new Form2();
-            fm2.showStudent("1");
-            fm2.Show();
+            Form2 f2 = new Form2();
+            f2.showStudent("1");
+            f2.Show();
+        }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
         }
     }
 }

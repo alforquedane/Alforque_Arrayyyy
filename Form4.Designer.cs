@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.pnl_Dashboard = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btn_Logout = new System.Windows.Forms.Button();
@@ -119,6 +120,7 @@
             this.btn_Logout.TabIndex = 16;
             this.btn_Logout.Text = "Logout";
             this.btn_Logout.UseVisualStyleBackColor = true;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // btn_Logs
             // 
@@ -184,7 +186,7 @@
             // pb_Profile
             // 
             this.pb_Profile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb_Profile.Image = global::Alforque_Arrayyyy.Properties.Resources._2c92e96f3e141731307e42e456f99e1f;
+            this.pb_Profile.Image = ((System.Drawing.Image)(resources.GetObject("pb_Profile.Image")));
             this.pb_Profile.Location = new System.Drawing.Point(19, 19);
             this.pb_Profile.Name = "pb_Profile";
             this.pb_Profile.Size = new System.Drawing.Size(131, 132);
@@ -219,6 +221,7 @@
             // 
             this.lbl_ActiveNo.AutoSize = true;
             this.lbl_ActiveNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ActiveNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_ActiveNo.Location = new System.Drawing.Point(49, 119);
             this.lbl_ActiveNo.Name = "lbl_ActiveNo";
             this.lbl_ActiveNo.Size = new System.Drawing.Size(34, 25);
@@ -241,6 +244,7 @@
             // 
             this.lbl_InactiveNo.AutoSize = true;
             this.lbl_InactiveNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_InactiveNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_InactiveNo.Location = new System.Drawing.Point(49, 119);
             this.lbl_InactiveNo.Name = "lbl_InactiveNo";
             this.lbl_InactiveNo.Size = new System.Drawing.Size(34, 25);
@@ -278,6 +282,7 @@
             // 
             this.lbl_FemaleNo.AutoSize = true;
             this.lbl_FemaleNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_FemaleNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_FemaleNo.Location = new System.Drawing.Point(71, 119);
             this.lbl_FemaleNo.Name = "lbl_FemaleNo";
             this.lbl_FemaleNo.Size = new System.Drawing.Size(34, 25);
@@ -289,6 +294,7 @@
             // 
             this.lbl_MaleNo.AutoSize = true;
             this.lbl_MaleNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_MaleNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_MaleNo.Location = new System.Drawing.Point(17, 119);
             this.lbl_MaleNo.Name = "lbl_MaleNo";
             this.lbl_MaleNo.Size = new System.Drawing.Size(34, 25);
@@ -354,6 +360,7 @@
             // 
             this.lbl_BlueNo.AutoSize = true;
             this.lbl_BlueNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BlueNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_BlueNo.Location = new System.Drawing.Point(79, 180);
             this.lbl_BlueNo.Name = "lbl_BlueNo";
             this.lbl_BlueNo.Size = new System.Drawing.Size(34, 25);
@@ -365,6 +372,7 @@
             // 
             this.lbl_PinkNo.AutoSize = true;
             this.lbl_PinkNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PinkNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_PinkNo.Location = new System.Drawing.Point(79, 141);
             this.lbl_PinkNo.Name = "lbl_PinkNo";
             this.lbl_PinkNo.Size = new System.Drawing.Size(34, 25);
@@ -376,6 +384,7 @@
             // 
             this.lbl_BlackNo.AutoSize = true;
             this.lbl_BlackNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BlackNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_BlackNo.Location = new System.Drawing.Point(79, 100);
             this.lbl_BlackNo.Name = "lbl_BlackNo";
             this.lbl_BlackNo.Size = new System.Drawing.Size(34, 25);
@@ -387,6 +396,7 @@
             // 
             this.lbl_WhiteNo.AutoSize = true;
             this.lbl_WhiteNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_WhiteNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_WhiteNo.Location = new System.Drawing.Point(79, 62);
             this.lbl_WhiteNo.Name = "lbl_WhiteNo";
             this.lbl_WhiteNo.Size = new System.Drawing.Size(34, 25);
@@ -398,6 +408,7 @@
             // 
             this.lbl_Blue.AutoSize = true;
             this.lbl_Blue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Blue.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Blue.Location = new System.Drawing.Point(19, 183);
             this.lbl_Blue.Name = "lbl_Blue";
             this.lbl_Blue.Size = new System.Drawing.Size(41, 20);
@@ -409,6 +420,7 @@
             // 
             this.lbl_Pink.AutoSize = true;
             this.lbl_Pink.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Pink.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Pink.Location = new System.Drawing.Point(20, 142);
             this.lbl_Pink.Name = "lbl_Pink";
             this.lbl_Pink.Size = new System.Drawing.Size(39, 20);
@@ -420,6 +432,7 @@
             // 
             this.lbl_Black.AutoSize = true;
             this.lbl_Black.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Black.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Black.Location = new System.Drawing.Point(20, 102);
             this.lbl_Black.Name = "lbl_Black";
             this.lbl_Black.Size = new System.Drawing.Size(48, 20);
@@ -431,6 +444,7 @@
             // 
             this.lbl_White.AutoSize = true;
             this.lbl_White.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_White.ForeColor = System.Drawing.Color.Gray;
             this.lbl_White.Location = new System.Drawing.Point(20, 64);
             this.lbl_White.Name = "lbl_White";
             this.lbl_White.Size = new System.Drawing.Size(50, 20);
@@ -470,6 +484,7 @@
             // 
             this.lbl_SoccerNo.AutoSize = true;
             this.lbl_SoccerNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_SoccerNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_SoccerNo.Location = new System.Drawing.Point(90, 139);
             this.lbl_SoccerNo.Name = "lbl_SoccerNo";
             this.lbl_SoccerNo.Size = new System.Drawing.Size(34, 25);
@@ -481,6 +496,7 @@
             // 
             this.lbl_VolleyballNo.AutoSize = true;
             this.lbl_VolleyballNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_VolleyballNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_VolleyballNo.Location = new System.Drawing.Point(91, 101);
             this.lbl_VolleyballNo.Name = "lbl_VolleyballNo";
             this.lbl_VolleyballNo.Size = new System.Drawing.Size(34, 25);
@@ -492,6 +508,7 @@
             // 
             this.lbl_BasketballNo.AutoSize = true;
             this.lbl_BasketballNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BasketballNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_BasketballNo.Location = new System.Drawing.Point(90, 61);
             this.lbl_BasketballNo.Name = "lbl_BasketballNo";
             this.lbl_BasketballNo.Size = new System.Drawing.Size(34, 25);
@@ -503,6 +520,7 @@
             // 
             this.lbl_Soccer.AutoSize = true;
             this.lbl_Soccer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Soccer.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Soccer.Location = new System.Drawing.Point(7, 142);
             this.lbl_Soccer.Name = "lbl_Soccer";
             this.lbl_Soccer.Size = new System.Drawing.Size(59, 20);
@@ -514,6 +532,7 @@
             // 
             this.lbl_Volleyball.AutoSize = true;
             this.lbl_Volleyball.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Volleyball.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Volleyball.Location = new System.Drawing.Point(7, 103);
             this.lbl_Volleyball.Name = "lbl_Volleyball";
             this.lbl_Volleyball.Size = new System.Drawing.Size(75, 20);
@@ -525,6 +544,7 @@
             // 
             this.lbl_Basketball.AutoSize = true;
             this.lbl_Basketball.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Basketball.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Basketball.Location = new System.Drawing.Point(7, 64);
             this.lbl_Basketball.Name = "lbl_Basketball";
             this.lbl_Basketball.Size = new System.Drawing.Size(83, 20);
@@ -562,6 +582,7 @@
             // 
             this.lbl_BeedNo.AutoSize = true;
             this.lbl_BeedNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BeedNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_BeedNo.Location = new System.Drawing.Point(81, 100);
             this.lbl_BeedNo.Name = "lbl_BeedNo";
             this.lbl_BeedNo.Size = new System.Drawing.Size(34, 25);
@@ -573,6 +594,7 @@
             // 
             this.lbl_BsitNo.AutoSize = true;
             this.lbl_BsitNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_BsitNo.ForeColor = System.Drawing.Color.Gray;
             this.lbl_BsitNo.Location = new System.Drawing.Point(80, 62);
             this.lbl_BsitNo.Name = "lbl_BsitNo";
             this.lbl_BsitNo.Size = new System.Drawing.Size(34, 25);
@@ -584,6 +606,7 @@
             // 
             this.lbl_Beed.AutoSize = true;
             this.lbl_Beed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Beed.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Beed.Location = new System.Drawing.Point(17, 103);
             this.lbl_Beed.Name = "lbl_Beed";
             this.lbl_Beed.Size = new System.Drawing.Size(54, 20);
@@ -595,6 +618,7 @@
             // 
             this.lbl_Bsit.AutoSize = true;
             this.lbl_Bsit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Bsit.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Bsit.Location = new System.Drawing.Point(17, 64);
             this.lbl_Bsit.Name = "lbl_Bsit";
             this.lbl_Bsit.Size = new System.Drawing.Size(45, 20);
@@ -656,7 +680,6 @@
         private System.Windows.Forms.Panel pnl_Gender;
         private System.Windows.Forms.PictureBox pb_Profile;
         private System.Windows.Forms.Label lbl_Dashboard;
-        private System.Windows.Forms.Label lbl_Name;
         private System.Windows.Forms.Button btn_Logout;
         private System.Windows.Forms.Button btn_Logs;
         private System.Windows.Forms.Button btn_Inactive;
@@ -695,5 +718,6 @@
         private System.Windows.Forms.Label lbl_Course;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label lbl_Name;
     }
 }

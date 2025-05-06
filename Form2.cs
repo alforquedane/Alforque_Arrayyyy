@@ -120,7 +120,7 @@ namespace Alforque_Arrayyyy
 
         public void showStudent(string status)
         {
-            book.LoadFromFile(@"C:\Users\ACT-STUDENT\Desktop\Ybanez.xlsx");
+            book.LoadFromFile(@"C:\Users\ACT-STUDENT\Desktop\AlforqueArray.xlsx");
             Worksheet sheet = book.Worksheets[0];
 
             DataTable dt = sheet.ExportDataTable();

@@ -132,9 +132,5 @@ namespace Alforque_Arrayyyy
             txt_Saying.Clear();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

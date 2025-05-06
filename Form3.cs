@@ -1,4 +1,5 @@
 ﻿using Spire.Xls;
+using Spire.Xls.Core;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,9 @@ namespace Alforque_Arrayyyy
 {
     public partial class Form3 : Form
     {
+
+        Workbook book = new Workbook();
+        Form4 f4 = new Form4();
         public Form3()
         {
             InitializeComponent();
@@ -29,6 +33,7 @@ namespace Alforque_Arrayyyy
             {
                 if (sheet.Range[i, 9].Value == txt_Username.Text && sheet.Range[i, 10].Value == txt_Password.Text)
                 {
+                    f4.lbl_Name.Text = txt_Username.Text;
                     log = true;
                     break;
                 }
@@ -39,7 +44,7 @@ namespace Alforque_Arrayyyy
             }
             if (log == true)
             {
-                Form4 f4 = new Form4();
+
                 f4.Show();
             }
             else
@@ -50,7 +55,13 @@ namespace Alforque_Arrayyyy
             }
         }
 
-        private void lbl_LoginForm_Click(object sender, EventArgs e)
+        private void btn_Signup_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
+
+        private void txt_Username_TextChanged(object sender, EventArgs e)
         {
 
         }

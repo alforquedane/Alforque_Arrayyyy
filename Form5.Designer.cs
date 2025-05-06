@@ -37,6 +37,7 @@
             // 
             this.lbl_Dashboard.AutoSize = true;
             this.lbl_Dashboard.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Dashboard.ForeColor = System.Drawing.Color.White;
             this.lbl_Dashboard.Location = new System.Drawing.Point(45, 79);
             this.lbl_Dashboard.Name = "lbl_Dashboard";
             this.lbl_Dashboard.Size = new System.Drawing.Size(82, 31);
@@ -47,6 +48,7 @@
             // 
             this.dgv_Logs.BackgroundColor = System.Drawing.Color.White;
             this.dgv_Logs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Logs.GridColor = System.Drawing.Color.Gray;
             this.dgv_Logs.Location = new System.Drawing.Point(42, 128);
             this.dgv_Logs.Name = "dgv_Logs";
             this.dgv_Logs.Size = new System.Drawing.Size(522, 355);
@@ -56,7 +58,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(607, 575);
             this.Controls.Add(this.dgv_Logs);
             this.Controls.Add(this.lbl_Dashboard);
